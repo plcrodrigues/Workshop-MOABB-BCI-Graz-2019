@@ -12,6 +12,9 @@
 ## 11:00 - 12:00 : Installation and basic setup
 [TODO Deux] Check if can create a folder with all the packages physically (not just the .yml file for installation)
 
+Take a look at this solution proposed by Raphael Bacher
+https://conda.github.io/conda-pack/
+
 ## 13:30 - 14:15 : Hands-on: easy benchmark
 
 Part I : 
