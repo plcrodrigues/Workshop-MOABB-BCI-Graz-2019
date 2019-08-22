@@ -46,9 +46,11 @@ Create a scikit-learn notebook with step-by-step for classification
 
 2) Presentation about MOABB in the morning
 
-3) Codes for 13:30 - 14:15 : 
-    - Start by writing the code for part II
-    - Explose each command of part II into a script on part I, this the version by hand
+3) Codes for 13:30 - 14:15 : Add commentaries to the codes
+    - Part1.1-MOABB_basic_example.ipynb
+    - Part2.1-MOABB_basic_example.ipynb
+    - Part2.2-MOABB_basic_example.ipynb
+    - Part2.3-MOABB_basic_example.ipynb
 
 4) Codes for 14:30 - 16:00 :
     - Write your own classifier
