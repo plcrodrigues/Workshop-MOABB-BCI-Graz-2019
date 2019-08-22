@@ -21,4 +21,5 @@ dependencies:
 - joblib
 - pip
 - pip:
-  - pyriemann
+  - pyriemann>=0.2.5
+  - git+https://github.com/NeuroTechX/moabb

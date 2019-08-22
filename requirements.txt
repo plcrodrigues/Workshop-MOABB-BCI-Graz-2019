@@ -15,3 +15,4 @@ joblib
 pyriemann>=0.2.5
 jupyter
 ipython
+moabb
