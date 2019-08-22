@@ -10,16 +10,15 @@
 - PyRiemann is an example of DYI classifier with scikit-learn template
 
 ## 11:00 - 12:00 : Installation and basic setup
-[TODO Deux] Check if can create a folder with all the packages physically (not just the .yml file for installation)
-
-Take a look at this solution proposed by Raphael Bacher
-https://conda.github.io/conda-pack/
+- An e-mail to all people participating in the workshop with the instructions to install MOABB, scikit-learn, MNE, pyriemann, etc., etc. (which datasets to download as well)
+- For those that are not comfortable in installing by themselves, we will propose a virtual machine with EVERYTHING installed and downloaded. The user will have less margin of control, but we will be sure that it works.
 
 ## 13:30 - 14:15 : Hands-on: easy benchmark
 
 Part I : 
 Basic concepts on Machine Learning classification, suppose we already have the trials (no mention about MOABB) 
-AlphaWaves : https://github.com/plcrodrigues/py.ALPHA.EEG.2017-GIPSA 
+Dataset downloaded by hand and loaded via scipy.io.loadmat 
+Dataset BNCI2014001 ? 
 
 Part II :
 Create a scikit-learn notebook with step-by-step for classification 
@@ -30,10 +29,30 @@ Create a scikit-learn notebook with step-by-step for classification
     + Do the steps one by one or use a make_pipeline 
 - Use moabb's evalutation procedure with a pipeline created above 
 
-[TODO Pedro] Choose the datasets we want to use and have a copy on USB (do not depend on the internet) 
-[TODO Sylvain] Find the scikit-learn notebook explaining each step for Machine Learning
+## 14:30-16:00 : Hands-on: write your own classifier ! Write your own dataset !
 
-## 14:30-16:00 : Hands-on: write your own classifier !
 - What are the methods and paradigm for creating a classifier/estimator on scikit-learn (fit, predict, etc)
 - Small local "competition" for testing different pipelines and getting scores on certain datasets
+
+--------------
+
+1) Installation procedures :
+    - Write an e-mail for the installation at home
+    - Create an environment conda for the installation at home
+    - Otherwise, the list of packages in .txt
+    - Ask people to install VirtualBox on their PC
+    - Create the virtual machines in Ubuntu 
+    - Choose and download the datasets
+
+2) Presentation about MOABB in the morning
+
+3) Codes for 13:30 - 14:15 : 
+    - Start by writing the code for part II
+    - Explose each command of part II into a script on part I, this the version by hand
+
+4) Codes for 14:30 - 16:00 :
+    - Write your own classifier
+    - Write your own dataset
+
+
 
