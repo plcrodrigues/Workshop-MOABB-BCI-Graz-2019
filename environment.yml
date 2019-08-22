@@ -1,0 +1,22 @@
+name: moabb
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+- python>=3.6.7
+- numpy>=1.14
+- scipy>=1.1.0
+- scikit-learn>=0.21
+- mne>=0.18
+- matplotlib>=2.2
+- seaborn>=0.9.0
+- h5py
+- pandas>=0.23
+- pyyaml
+- coloredlogs
+- pillow
+- m2r
+- joblib
+- pip
+- pip:
+  - pyriemann
