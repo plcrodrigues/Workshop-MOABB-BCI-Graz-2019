@@ -13,3 +13,5 @@ pillow
 m2r
 joblib
 pyriemann>=0.2.5
+jupyter
+ipython
