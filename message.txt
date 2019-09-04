@@ -1,0 +1,37 @@
+Hello everyone,
+
+First of all, thank you for your interest in our workshop !
+
+This message is intended to give you some instructions on how to install the software that we will be needing for the hands-on part of the workshop (Go directly to the end of the text if you're feeling lost).
+
+- We will be using Python 3 and presenting everything with jupyter notebooks, so be sure to have both of them installed on your computer. For this, you can simply download and install Anaconda (https://www.anaconda.com/). This is a bundle of several pieces of software that allows you to get started with Python on Windows, Mac, or Linux.
+
+- We will need the following packages :
+
+numpy>=1.14
+scipy>=1.1.0
+scikit-learn>=0.21
+mne>=0.18
+matplotlib>=2.2
+seaborn>=0.9.0
+h5py
+pandas>=0.23
+pyyaml
+coloredlogs
+pillow
+m2r
+joblib
+pyriemann>=0.2.5
+
+To install them, you may simply write "pip install XXXXX" on your command line, where XXXXX is the name of the desired package. 
+
+- We will need the MOABB package, which is not yet available in Python's public repository. This means that for installing it, you will need to go to MOABB's webpage (https://github.com/NeuroTechX/moabb) and follow the setup instructions explicited in its README.
+
+Note that if you're not comfortable in doing the procedure explained above, you may either:
+
+(1) Send us an e-mail (pedro.rodrigues@gipsa-lab.fr) with your questions
+(2) Come talk to us during the workshop (we have assigned a slot of 1h in the morning to help everyone installing the packages on their computers)
+(3) Use the virtual machine that we will provide during the workshop. This is the simplest solution, since you won't need to install any Python package nor worry about downloading Anaconda. However, we ask you to have Oracle's VirtualBox software already installed (https://www.virtualbox.org/wiki/Downloads).
+
+Our main priority is to assure that everyone will be operational by 13h30 !! We don't want to leave anyone behind during the hands-on part of the workshop ;-)
+
