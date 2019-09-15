@@ -1,19 +1,18 @@
-# TODO
-
-## 09:15 - 10:00 : Classification methods in BCI   
+# 10:15 - 11:00 : Classification methods in BCI   
 - Marco's presentation
 
-# 10:15 - 11:00 : MOABB Project
+# 11:00 - 12:00 : MOABB Project
 - Motivation for creating/using MOABB
 - Present MNE
 - Present Scikit-learn (not all published estimators are available in there)
 - PyRiemann is an example of DYI classifier with scikit-learn template
 
-## 11:00 - 12:00 : Installation and basic setup
+# 12:00 - 13:00 : Installation and basic setup
+
 - An e-mail to all people participating in the workshop with the instructions to install MOABB, scikit-learn, MNE, pyriemann, etc., etc. (which datasets to download as well)
 - For those that are not comfortable in installing by themselves, we will propose a virtual machine with EVERYTHING installed and downloaded. The user will have less margin of control, but we will be sure that it works.
 
-## 13:30 - 14:15 : Hands-on: easy benchmark
+# 14:30 - 15:15 : Hands-on: easy benchmark
 
 Part I : 
 Basic concepts on Machine Learning classification, suppose we already have the trials (no mention about MOABB) 
@@ -29,33 +28,11 @@ Create a scikit-learn notebook with step-by-step for classification
     + Do the steps one by one or use a make_pipeline 
 - Use moabb's evalutation procedure with a pipeline created above 
 
-## 14:30-16:00 : Hands-on: write your own classifier ! Write your own dataset !
+# 15:15-16:30 : Hands-on: write your own classifier ! Write your own dataset !
 
 - What are the methods and paradigm for creating a classifier/estimator on scikit-learn (fit, predict, etc)
+- How to create a dataset in MOABB
 - Small local "competition" for testing different pipelines and getting scores on certain datasets
-
---------------
-
-1) Installation procedures :
-    - Write an e-mail for the installation at home
-    - Create an environment conda for the installation at home
-    - Otherwise, the list of packages in .txt
-    - Create the requirements.txt now that we know what the notebooks use
-    - Ask people to install VirtualBox on their PC
-    - Create the virtual machines in Ubuntu 
-    - Choose and download the datasets
-
-2) Presentation about MOABB in the morning
-
-3) Codes for 13:30 - 14:15 : Add commentaries to the codes and make figure legends and titles nicer
-    - Part1.1-MOABB_basic_example.ipynb
-    - Part2.1-MOABB_basic_example.ipynb
-    - Part2.2-MOABB_basic_example.ipynb
-    - Part2.3-MOABB_basic_example.ipynb
-
-4) Codes for 14:30 - 16:00 :
-    [Sylvain] - Write your own classifier
-    [Pedro] - Write your own dataset
 
 
 
